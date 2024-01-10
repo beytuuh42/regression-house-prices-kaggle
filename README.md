@@ -60,7 +60,11 @@ The project is separated into 7 parts.
 <!-- INSTALLATION -->
 ## Installation
 ### Requirements
-The notebook needs the packages described above. These come pre-installed on a kaggle notebook environment, pycaret being the exception, which is installed separately.
+The notebook needs the packages described above. These come pre-installed on a kaggle notebook environment, pycaret being the exception, which is installed separately in the first line of the notebook to '/kaggle/working/pycaret' to preserve the package on notebook restart.
+
+### Alternative
+Alternatively, the dependencies can be installed via the requirements.txt file, which contains all installed packages. </br>
+<code>pip install -r requirements.txt</code>
 
 <!-- CONTACT -->
 ## Contact
