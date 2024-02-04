@@ -2,7 +2,9 @@
 ## Introduction
 
 This project uses advanced regression techniques to predict the sale price of houses for the ames housing data set.
-This notebook is used for an ongoing competition on kaggle (https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques).
+This notebook is used for an ongoing competition on kaggle (https://www.kaggle.com/competitions/house-prices-advanced-regression-techniques). 
+
+Latest Score: Top 100 / 3%
 
 
 
@@ -45,7 +47,7 @@ The project is separated into 7 parts.
 - [ ] improve/try different data imputation technique (currently mean and mode are used), i.e. K-Nearest-Neightbor, or ML models to predict the value
 - [ ] generate new features and drop irrelevant ones
 - [ ] change model selection approach and in-/exclude (other) regression models
-- [ ] hyperparameter tuning
+- [x] hyperparameter tuning
 
 <!-- LIBRARIES -->
 ## Frameworks & Libraries
